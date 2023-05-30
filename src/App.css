@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.webcam-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.camera {
+  border-radius: 10px;
+}
+
+
+.titleDiv {
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background-color: #7baff8;
+}
+
+
+.detect {
+  color: white;
+  background-color: #08179c;
+  width: 40vh;
+  max-width: 510px;
+  height: 50px;
+  font-size: 2vh;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.nostyle {
+  font-size: 2vh;
+  display: inline;
+}
+
+h1 {
+  font-family: 'Noticia Text';
+  padding-top: 50px;
+}
+
+#spId {
+  margin-bottom: 50px;
+}
+
+.footer {
+  font-weight: 200;
+  font-size: 2.2rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 15vh;
+  background-color: #7baff8;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+.camera__wrapper {
+  position: relative;
+  max-width: 680px;
+}
+
+#cam_input {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  /* Safari and Chrome */
+  -moz-transform: rotateY(180deg);
+  /* Firefox */
+}
+
+.camera {
+  width: 100%;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.switcher {
+  margin-left: 82vw;
+}
